@@ -1,0 +1,89 @@
+body{
+    margin: auto;
+    text-align: center;
+    justify-content: justify;
+    background-image: url(Imagens/brawl-stars-background-68vtd0oetoiv81nw.jpg);
+    background-color: rgb(90, 126, 167);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.title{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+
+.brawl{
+    margin: 5%;
+    margin-left: 35%;
+
+    text-align: center;
+    justify-content: justify;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    border: solid black;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.8);
+
+    width: 30%;
+}
+
+.submit{
+    margin: auto;
+    margin-bottom: 5%;
+
+    text-align: center;
+    justify-content: justify;
+
+    width: 30%;
+    border: solid black;
+    padding: 10px;
+    border-radius: 10px;
+
+    color: rgb(0, 0, 0);
+    font-size: medium;
+
+    cursor: grab;
+    transition: transform 1s;
+    transform: translateX(0) scale(0.95);
+}
+
+.submit:hover{
+    background: rgb(255, 88, 37);
+    transform: translateX(0) scale(1.05);
+}
+
+.input{
+    width: 30%;
+    padding: 10px 10px 10px 10px;
+}
+
+.input:focus{
+    color: purple;
+    font-weight: bold;
+}
+
+.Radio{
+    margin: auto;
+    text-align: center;
+    justify-content: justify;
+    width: 55%;
+}
+
+.JogaBrawl{
+    width: 48%;
+    text-align: justify;
+    display: inline-block;
+
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkbox{
+    display: block;
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/svg+xml" href="Imagens/brawl-stars-logo-brawl-stars-icon-transparent-free-png.webp" />
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário-Brawl</title>
+</head>
+<body>
+    <form class="brawl">
+
+        <p class="title">Formulário Brawlzinho</p>
+        
+        <label>
+            <input required="" type="text" placeholder="Digite seu nome" class="input" id="nome">
+        </label>
+
+        <label>
+            <input required="" type="date" placeholder="Data de nascimento" class="input" id="data">
+        </label>
+
+        <label>
+            <input required="" type="text" placeholder="Digite seu main" class="input" id="main">
+        </label>
+
+        <label> 
+            <input required="" type="email" placeholder="Digite seu email" class="input" id="email">
+        </label>
+
+        <label>
+            <input required="" type="password" placeholder="Digite sua senha" class="input" id="senha">
+        </label>
+
+        <label>
+            <input required="" type="number" placeholder="Quantos troféu tu tem?" class="input" id="numero">
+        </label>
+
+        <label>
+            <p>O que achou do rework no frank?</p>
+
+            <div class="Radio">
+
+                <input type="radio" id="opcao1" value="Achei Zika" name="rework_frank" class="opcao">
+                <label for="opcao1">Achei zika</label>
+
+                <input type="radio" id="opcao2" value="Mais ou menos" name="rework_frank" class="opcao">
+                <label for="opcao2">Mais ou menos</label>
+
+                <input type="radio" id="opcao3" value="Horrivel" name="rework_frank" class="opcao">
+                <label for="opcao3">Horrivel</label>
+
+            </div>
+            
+        </label>
+
+        <label>
+            <p>Como é sua conta?</p>
+
+            <div class="JogaBrawl">
+
+                <div class="checkbox">
+                    <input type="checkbox" id="opcao11" value="opcao1" name="ComoJoga" class="opcao">
+                    <label for="opcao11">Jogo casualmente apenas por diversão</label>
+                </div>
+                
+                <div class="checkbox">
+                    <input type="checkbox" id="opcao22" value="opcao2" name="ComoJoga" class="opcao">
+                    <label for="opcao22">Tenho mais de 1000 vitórias 3x3</label>
+                </div>
+
+                <div class="checkbox">
+                    <input type="checkbox" id="opcao33" value="opcao2" name="ComoJoga" class="opcao">
+                    <label for="opcao33">Comprei 1 ou mais passes</label>
+                </div>
+                
+                <div class="checkbox">
+                    <input type="checkbox" id="opcao44" value="opcao2" name="ComoJoga" class="opcao">
+                    <label for="opcao44">tenho 1 ou mais skins de 300 gemas</label>
+                </div>
+
+            </div>
+
+        </label>
+
+        <button onclick="Enviar()" class="submit">Enviar</button>
+
+    </form>
+
+    <script src="formulario.js"></script>
+</body>
+</html>
