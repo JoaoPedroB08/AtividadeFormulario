@@ -22,6 +22,6 @@ alert(   'Seu nome é: ' + nomeUsuario + '\n'
        + 'Sua conta tem aproximadamente: ' + troféuUsuario + ' troféus \n'
        + 'O que achou do rework do frank: ' + reworkFrank)
 
-
+       window.location.href='index2.html'
        
 }
